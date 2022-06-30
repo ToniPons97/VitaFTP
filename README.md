@@ -44,7 +44,5 @@ It simplifies the process of uploading games to the system (Bye Bye FileZilla).
 The dependencies are listed in requirements.txt file. Just run <b><em>pip install -r requirements.txt</em></b>.
 magic module depends on libmagic so, for linux run: <b><em>sudo apt install libmagic</em></b> (or libmagic-dev). For MacOS (running homebrew) run: <b><em>brew install libmagic</em></b>
 
-Also go and checkout the pyunpack documentation if you're curious to see which compression formats it supports.
-
-pyunpack docs:
-    https://openbase.com/python/pyunpack
+Also go and checkout the pyunpack repository: 
+    https://github.com/ponty/pyunpack/tree/0.3
