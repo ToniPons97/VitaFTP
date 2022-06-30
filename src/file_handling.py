@@ -1,4 +1,3 @@
-import shutil
 import sys, magic, os
 from pyunpack import Archive
 from shutil import copyfile, rmtree
