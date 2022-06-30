@@ -4,8 +4,7 @@ This script ONLY works on a jailbroken PS Vita with Adrenaline (PSP/PS1 emulator
 
 It simplifies the process of uploading games to the system (Bye Bye FileZilla). 
 
-It handles the following steps for you:
-
+<h4>It handles the following steps for you:</h4>
 <ol>
     <li>
         Decompressing the file (if compressed).
@@ -18,21 +17,25 @@ It handles the following steps for you:
     </li>
 </ol>
 
-USAGE:
-    1) Go to the directory where the file is (IMPORTANT!!).
-    
-    2) run the script and pass the name of the file as argument (Use quotation if the file's name contains spaces).
-    
-    3) Wait for the script to finish.
+<h3>USAGE:</h3>
+<ol>
+    <li>
+        Go to the directory where the file is (IMPORTANT!!).
+    </li>
+    <li>
+        run the script and pass the name of the file as argument (Use quotation if the file's name contains spaces).
+    </li>
+    <li>
+        Wait for the script to finish.
+    </li>
 
-EXAMPLES:
-    1)
-        $ /opt/VitaFTP/src/vita_ftp_client.py file.zip
-    2) 
-        $ /opt/VitaFTP/src/vita_ftp_client.py 'file with spaces.rar'
-    3) 
-        $ /opt/VitaFTP/src/vita_ftp_client.py file.iso
-    4)
-        $ /opt/VitaFTP/src/vita_ftp_client.py file.gba
-    5)
-        $ /opt/VitaFTP/src/vita_ftp_client.py PS1_GAME_DIRECTORY
+</ol>
+
+<h3>EXAMPLES:</h3>
+<ol>
+    <li>$ /opt/VitaFTP/src/vita_ftp_client.py file.zip</li>
+    <li>$ /opt/VitaFTP/src/vita_ftp_client.py 'file with spaces.rar'</li>
+    <li>$ /opt/VitaFTP/src/vita_ftp_client.py file.iso</li>
+    <li>$ /opt/VitaFTP/src/vita_ftp_client.py file.gba</li>
+    <li>$ /opt/VitaFTP/src/vita_ftp_client.py PS1_GAME_DIRECTORY</li>
+</lo> 
