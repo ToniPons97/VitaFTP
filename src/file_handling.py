@@ -2,16 +2,6 @@ import sys, magic, os
 from pyunpack import Archive
 from shutil import copyfile, rmtree
 
-#pip install python-magic
-#magic module depends on libmagic (sudo apt install libmagic (or libmagic-dev) | brew install libmagic)
-
-#pip install pyunpack
-#pip install patool
-
-'''
-    pyunpack docs:
-        https://openbase.com/python/pyunpack
-'''
 OUTPUT_DIR = f'{os.path.dirname(os.path.realpath(__file__))[:-3]}output'
 
 def clear_output_directory():

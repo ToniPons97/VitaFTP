@@ -38,4 +38,13 @@ It simplifies the process of uploading games to the system (Bye Bye FileZilla).
     <li>$ /opt/VitaFTP/src/vita_ftp_client.py file.iso</li>
     <li>$ /opt/VitaFTP/src/vita_ftp_client.py file.gba</li>
     <li>$ /opt/VitaFTP/src/vita_ftp_client.py PS1_GAME_DIRECTORY</li>
-</lo> 
+</lo>
+
+<h3>Dependencies</h3>
+The dependencies are listed in requirements.txt file. Just run pip install -r requirements.txt.
+magic module depends on libmagic so, for linux run: <em>sudo apt install libmagic</em> (or libmagic-dev). For MacOS (running homebrew) run: <em>brew install libmagic</em>
+
+Also go and checkout the pyunpack documentation if you're curious to see which compression formats it supports.
+
+pyunpack docs:
+    https://openbase.com/python/pyunpack
