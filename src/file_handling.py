@@ -33,12 +33,6 @@ def decompress_file(file):
         print('[!] Couldn\'t extract file.')
         sys.exit(0)
 
-def get_ps1_dir():
-    for f in os.listdir(OUTPUT_DIR):
-        if os.path.isdir(f):
-            return f'{OUTPUT_DIR}/{f}'
-    return ''
-
 
 def get_mime(file):
     '''
@@ -118,7 +112,3 @@ def __check_ps1_data__(dir_name):
         return True
     else:
         return False
-
-def is_psp_or_gba(filename):
-    if (get_console(filename) == 'x-iso9660-image') or (get_console(filename) == 'x-gba-rom'):
-        return 'Cool'
