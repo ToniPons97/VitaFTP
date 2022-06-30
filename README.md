@@ -5,11 +5,11 @@ This script ONLY works on a jailbroken PS Vita with Adrenaline (PSP/PS1 emulator
 It simplifies the process of uploading games to the system (Bye Bye FileZilla). 
 
 It handles the following steps for you:
-    1) decompressing the file (if compressed).
+    1) Decompressing the file (if compressed).
     
-    2) checking the file's integrity by checking file extensions, basic PS1 directory structure and valid MIME types to determine if it's a PSP, PS1 or GBA game.
+    2) Checking the file's integrity by checking file extensions, basic PS1 directory structure and valid MIME types to determine if it's a PSP, PS1 or GBA game.
 
-    3) Then it uploads the game to the appropiate directory on the Vita.
+    3) Uploading the game to the appropiate directory on the Vita.
 
 USAGE:
     1) Go to the directory where the file is (IMPORTANT!!).
